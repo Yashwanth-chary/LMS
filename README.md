@@ -169,7 +169,7 @@ Swagger UI is available at `http://127.0.0.1:8000/swagger/`.
 
 ## Repository Link
 
-[GitHub Repository](https://github.com/your-repo-link)
+[GitHub Repository](https://github.com/Yashwanth-chary/LMS.git)
 
 
 
