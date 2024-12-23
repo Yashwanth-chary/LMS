@@ -34,13 +34,14 @@ Ensure you have the following installed:
 
 ```bash
 git clone https://github.com/Yashwanth-chary/LMS.git
-cd library-management-system
+cd LMS
+cd library_management_system
 ```
 
 ### 2. Create and Activate a Virtual Environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
@@ -83,13 +84,13 @@ redis-server
 2. Start the Celery worker:
 
 ```bash
-celery -A library_management_system worker --loglevel=info
+celery -A library_management worker --loglevel=info
 ```
 
 3. (Optional) Start the Celery beat scheduler for periodic tasks:
 
 ```bash
-celery -A library_management_system beat --loglevel=info
+celery -A library_management beat --loglevel=info
 ```
 
 ---
